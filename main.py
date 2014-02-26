@@ -33,7 +33,7 @@ class ApplicationMain(HasTraits):
                 width = 1280,
                 height = 750,
                 resizable = True,
-                title="Proving Grounds"
+                title="My First Python GUI Interface"
             )
 
     def _display_default(self):
