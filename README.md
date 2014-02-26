@@ -1,7 +1,9 @@
 PythonGUITemplate
 =================
 
-A basic template for making a GUI in Python using Traits.
+A basic template for making a GUI in Python using Traits. It gives you access to a matplotlib canvas object and Mayavi 3D rendering object which can be dynamically updated by adjusting the objects on the right panel. Tabbed viewing is also enabled by default.
+
+![Detault view upon launch.](http://bgriffen.scripts.mit.edu/www/wp-content/uploads/2014/02/PythonGUIEx7.png "PythonGUITemplate")
 
 ## Requirements
 
