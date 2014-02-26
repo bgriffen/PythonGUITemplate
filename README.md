@@ -3,7 +3,7 @@ PythonGUITemplate
 
 A basic template for making a GUI in Python using Traits.
 
-# Requirements
+## Requirements
 
 You will need Enthought's EPD distribution (32-bit, **not** 64-bit as it does not include Mayavi) which can be found [here](https://www.enthought.com/repo/epd/installers/). You will need an academic license to access it for free.
 
