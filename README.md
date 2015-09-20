@@ -3,7 +3,10 @@ Python GUI Template
 
 A basic template for making a GUI in Python using Traits. It gives you access to a matplotlib canvas object and Mayavi 3D rendering object which can be dynamically updated by adjusting the objects on the right panel. Tabbed viewing is also enabled by default.
 
-![Detault view upon launch.](http://www.brendangriffen.com/images/Python-GUI/PythonGUIEx7-1024x599.png)
+![Detault view upon launch.](http://www.brendangriffen.com/assets/pythongui/PythonGUIEx7-1024x599.png)
+![Example 1](http://www.brendangriffen.com/assets/pythongui/PythonGUIEx4Zoom.png)
+![Example 2](http://www.brendangriffen.com/assets/pythongui/PythonGUIEx5.png)
+![Example 3](http://www.brendangriffen.com/assets/pythongui/PythonGUIEx6.png)
 
 ## Requirements
 
