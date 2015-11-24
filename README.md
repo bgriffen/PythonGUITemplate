@@ -16,7 +16,25 @@ Example of enabling options when particular criteria are met.
 
 ## Requirements
 
-You will need Enthought's EPD distribution (32-bit, **not** 64-bit as it does not include Mayavi) which can be found [here](https://www.enthought.com/repo/epd/installers/). You will need an academic license to access it for free.
+There are two options here:
+Either;
+
+* you will need Enthought's EPD distribution (32-bit, **not** 64-bit as it does not include Mayavi) which can be found [here](https://www.enthought.com/repo/epd/installers/). You will need an academic license to access it for free (simply requires a .edu email address). Go to the next step to install EPD if this is your choice (or if you are a beginner).
+
+or,
+
+* if you don't use EPD, you will need to change the Common.py file to have the header which does not use EPD's distribution. Simply replace the following where appropriate (you will need [TraitsUI](https://github.com/enthought/traitsui)):
+
+```python
+from traits.api import *
+from traitsui.api import View,UItem, Item, Group, Heading, Label, \
+        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, FileEditor, \
+        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
+from traitsui.menu import NoButtons
+from traitsui.wx.editor import Editor
+from traitsui.wx.basic_editor_factory import BasicEditorFactory
+from traitsui.api import ColorTrait
+```
 
 ## Installing EPD:
 
