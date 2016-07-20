@@ -3,27 +3,28 @@ from matplotlib.backends.backend_wxagg import FigureCanvasWxAgg as FigureCanvas
 from matplotlib.backends.backend_wx import NavigationToolbar2Wx
 
 # if using Enthought
-from enthought.traits.api import *
-from enthought.traits.ui.api import View,UItem, Item, Group, Heading, Label, \
-        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, \
-        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
-from enthought.traits.ui.menu import NoButtons
-#from enthought.traits.api import Any, Instance
-from enthought.traits.ui.wx.editor import Editor
-from enthought.traits.ui.wx.basic_editor_factory import BasicEditorFactory
+#from enthought.traits.api import *
+#from enthought.traits.ui.api import View,UItem, Item, Group, Heading, Label, \
+#        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, \
+#        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
+#from enthought.traits.ui.menu import NoButtons
+##from enthought.traits.api import Any, Instance
+#from enthought.traits.ui.wx.editor import Editor
+#from enthought.traits.ui.wx.basic_editor_factory import BasicEditorFactory
+#from enthought.enable.api import ColorTrait
 
 # If installing traits/traitsui as standalone or using Conda
-#from traits.api import *
-#from traitsui.api import View,UItem, Item, Group, Heading, Label, \
-#        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, FileEditor, \
-#        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
-#from traitsui.menu import NoButtons
-#from traitsui.wx.editor import Editor
-#from traitsui.wx.basic_editor_factory import BasicEditorFactory
-#from traitsui.api import ColorTrait
+from traits.api import *
+from traitsui.api import View,UItem, Item, Group, Heading, Label, \
+        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, FileEditor, \
+        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
+from traitsui.menu import NoButtons
+from traitsui.wx.editor import Editor
+from traitsui.wx.basic_editor_factory import BasicEditorFactory
+from traitsui.api import ColorTrait
 
 import numpy as np
-from enthought.enable.api import ColorTrait
+
 
 from matplotlib import *
 import os
