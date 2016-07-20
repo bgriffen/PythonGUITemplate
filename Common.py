@@ -24,15 +24,8 @@ from traitsui.wx.basic_editor_factory import BasicEditorFactory
 from traitsui.api import ColorTrait
 
 import numpy as np
-
-
 from matplotlib import *
-import os
-import sys
-import wx
-import platform
-import socket
-import random
+import os,sys,wx,platform,socket,random
 
 class _MPLFigureEditor(Editor):
 
