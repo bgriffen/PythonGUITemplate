@@ -1,21 +1,17 @@
-import matplotlib
-# We want matplotlib to use a QT backend
-#matplotlib.use('Qt4Agg')
 from matplotlib.pyplot import Figure
 from matplotlib.backends.backend_wxagg import FigureCanvasWxAgg as FigureCanvas
 from matplotlib.backends.backend_wx import NavigationToolbar2Wx
-#from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
 
-from traits.api import *
-from traitsui.api import View,UItem, Item, Group, Heading, Label, \
-        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, FileEditor, \
+from enthought.traits.api import *
+from enthought.traits.ui.api import View,UItem, Item, Group, Heading, Label, \
+        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, \
         ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
-from traitsui.menu import NoButtons
-#from traits.api import Any, Instance
-from traitsui.wx.editor import Editor
-from traitsui.wx.basic_editor_factory import BasicEditorFactory
+from enthought.traits.ui.menu import NoButtons
+#from enthought.traits.api import Any, Instance
+from enthought.traits.ui.wx.editor import Editor
+from enthought.traits.ui.wx.basic_editor_factory import BasicEditorFactory
 import numpy as np
-from traitsui.api import ColorTrait
+from enthought.enable.api import ColorTrait
 
 from matplotlib import *
 import os
