@@ -11,7 +11,7 @@ There are two options to get you going, either:
 
 or,
 
-* if you don't use EPD, you will need to change the `Common.py` file to have the header not use EPD's distribution. Simply replace the following where appropriate (you will need [TraitsUI](https://github.com/enthought/traitsui) however):
+* if you don't use EPD, you will need to change the `Common.py` file to have the header not use EPD's distribution. Simply replace the following where appropriate (you will need [TraitsUI](https://github.com/enthought/traitsui) **v5.0 or above** however):
 
 ```python
 from traits.api import *
@@ -23,6 +23,8 @@ from traitsui.wx.editor import Editor
 from traitsui.wx.basic_editor_factory import BasicEditorFactory
 from traitsui.api import ColorTrait
 ```
+
+If you do not have TraitsUI **v5.0 or above**, then you will get black backgrounds and odd interface errors. This took me quite some time to solve so please heed my advice!
 
 If you are a beginner or new to Python, I suggest you install EPD (pacakge manager for Python and its tools):
 
