@@ -32,7 +32,7 @@ If you are a beginner or new to Python, I suggest you install EPD (pacakge manag
 
 ## Running GUI
 
-`ipython` then `run main.py` or `python main.py` outright. You will likely also have to install wxpython. `conda install wxpython` should do the trick. If you are on Mac OSX, you then run via `pythonw main.py`.
+Run `ipython` then `run main.py` or `python main.py` outright. If you get errors, you will likely also have to install wxpython. Install via `conda install wxpython`. If you are on Mac OSX, you then run via `pythonw main.py`. On Ubuntu you just run `python main.py`.
 
 ## Adding your own features.
 
